@@ -1,0 +1,72 @@
+#imgFounder {
+    max-width: 100%;
+}
+.jumbotron {
+    padding: 14rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    background-image: url('../../assets/imgs/solar-power1-2000px.55-min.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px -14rem;
+}
+
+.container > p {
+    color: white;
+}
+.primaryColor {
+    background-color: #041533;
+    color: white;
+}
+
+.display-3 {
+    color: #ffae00;
+    font-size: 4rem;
+    font-family: "Caveat" !important;
+}
+
+.jumbo-text {
+    font-size: 2.5rem;
+    font-family: "Caveat";
+}
+.secondaryColor {
+    background-color: #ffae00;
+}
+
+.terciaryColor {
+    background-color: #808080;
+}
+
+h5, h4 {
+    font-family: "argestadisplay-regular-webfont";
+}
+
+h1, h2, h3 {
+    font-family: "AmaticBold";
+}
+
+.jumbotron > p {
+    color: white;
+}
+
+a {
+    color: white !important;
+}
+
+.navbar-center > img {
+    max-width: 75px;
+    max-height: 75px;
+    margin-left: 34vw;
+}
+
+footer > p {
+    display: inline;
+    margin-left: 10px;
+}
+
+footer {
+    max-width: 100%;
+    padding-bottom: 0.5rem;
+}
+
