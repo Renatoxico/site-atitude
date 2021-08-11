@@ -18,3 +18,13 @@
     font-family: "AmaticBold";
     src: local("AmaticSC-Bold"), url(./assets/fonts/AmaticSC-Bold.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: "Fenix-Regular";
+    src: local("Fenix-Regular"), url(./assets/fonts/Fenix-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Anton-Regular";
+    src: local("Anton-Regular"), url(./assets/fonts/Anton-Regular.ttf) format("truetype");
+}
