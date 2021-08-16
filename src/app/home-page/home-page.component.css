@@ -75,6 +75,10 @@ a.nav-link {
     font-family: "Fenix-Regular";
 }
 
+a.nav-link :hover {
+    color: #ffae00 !important;
+}
+
 .navbar-center > img {
     max-width: 75px;
     max-height: 75px;
