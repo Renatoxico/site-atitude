@@ -17,13 +17,11 @@ jobs:
         run: npm install
         
       - name: Build Angular app
-        run: npm run build -- --prod
+        run: npm run build 
         
-      - name: Copy changes from dev to staging
+      - name: Create and push staging branch
         run: |
-          git checkout staging
-          git merge dev --no-commit --no-ff
-          git commit -am "Merge changes from dev branch"
+          git checkout -b staging dev
           git push origin staging
         
       - name: Deploy to GitHub Pages
