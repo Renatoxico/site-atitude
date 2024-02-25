@@ -50,6 +50,10 @@
     background-color: #ffae00;
 }
 
+.yellowText {
+    color: #ffae00;
+}
+
 .terciaryColor {
     background-color: #808080;
 }
@@ -93,6 +97,29 @@ footer > p {
 
 footer {
     max-width: 100%;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem;
 }
 
+#contact-form {
+    max-width: 50%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#whats-app-img {
+    height: 2em; 
+    margin-left: 5px;
+}
+
+.form-group {
+    font-weight: bold;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
