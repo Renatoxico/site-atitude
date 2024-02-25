@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Build Angular app
+        run: npm run build -- --prod
+        
+      - name: Copy changes from dev to staging
+        run: |
+          git checkout staging
+          git merge dev --no-commit --no-ff
+          git commit -am "Merge changes from dev branch"
+          git push origin staging
+        
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: dist
