@@ -17,7 +17,7 @@ jobs:
         run: npm install
         
       - name: Build Angular app
-        run: npm run build -- --prod
+        run: npm run build 
         
       - name: Copy changes from dev to staging
         run: |
